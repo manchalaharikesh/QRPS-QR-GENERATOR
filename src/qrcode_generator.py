@@ -1,4 +1,3 @@
-from tkinter import Scale
 import pyqrcode
 
 def generate_qrcode(contents, filename):
