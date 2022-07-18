@@ -1,8 +1,9 @@
+from tkinter import Scale
 import pyqrcode
 
 def generate_qrcode(contents, filename):
 
-    qrcode = pyqrcode.create(contents)
+    qrcode = pyqrcode.create(contents, error='L')
     qrcode.png('./static/qrcodes/'+filename+'.png')
 
     return True
