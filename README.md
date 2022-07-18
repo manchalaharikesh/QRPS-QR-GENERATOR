@@ -22,7 +22,7 @@ Click Here -> [QRPS-QR-GENERATOR](https://qrps-qr-generator.herokuapp.com/)
 
 ## What's inside the QR?
 This QR Code contains the details like:
-      
+            
       User Data:
         1. username,
         2. encrypted password.
